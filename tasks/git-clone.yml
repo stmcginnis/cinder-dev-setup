@@ -26,6 +26,6 @@
       - "You will need to execute the following to finalize setup:"
       - ""
       - "    sudo mv /root/src ~/"
-      - "    chown -R [user]:[group] ~/src"
+      - "    sudo chown -R [user]:[group] ~/src"
       - "!!!!!!!!!!!!!!!!"
   when: ansible_user_id == "root"
