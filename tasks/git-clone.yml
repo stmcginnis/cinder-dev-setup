@@ -14,3 +14,18 @@
   command: "chown -R {{ ansible_user_id }}:{{ ansible_user_gid }} {{ repo_dir }}"
   args:
     warn: false
+  when: ansible_user_id != "root"
+
+- name: Moving instructions
+  debug:
+    msg:
+      - "!!!!!!!!!!!!!!!!"
+      - "Unable to get correct user path!"
+      - ""
+      - "Unable to determine your actual user name."
+      - "You will need to execute the following to finalize setup:"
+      - ""
+      - "    sudo mv /root/src ~/"
+      - "    chown -R [user]:[group] ~/src"
+      - "!!!!!!!!!!!!!!!!"
+  when: ansible_user_id == "root"
