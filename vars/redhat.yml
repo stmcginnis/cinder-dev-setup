@@ -1,0 +1,12 @@
+system_packages:
+  - gcc
+  - openssl-devel
+  - libffi-devel
+  - libxslt-devel
+  - mysql-devel
+  - python2
+  - python35
+  - python2-pip
+  - python3-pip
+  - python2-virtualenv
+  - python3-virtualenv

@@ -1,0 +1,17 @@
+- hosts: localhost
+  become: true
+
+  vars:
+    cinder_repos:
+      - cinder
+      - cinder-specs
+      - cinder-tempest-plugin
+      - python-cinderclient
+      - python-brick-cinderclient-ext
+      - os-brick
+    repo_dir: "{{ ansible_user_dir }}/src"
+
+  tasks:
+    - include: tasks/packages.yml
+    - include: tasks/pip.yml
+    - include: tasks/git-clone.yml
