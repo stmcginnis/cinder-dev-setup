@@ -1,4 +1,4 @@
-- name: Create source directory
+- name: "Create source directory {{ repo_dir }}"
   file:
     path: "{{ repo_dir }}/openstack"
     state: directory
