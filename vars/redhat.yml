@@ -4,6 +4,7 @@ system_packages:
   - libffi-devel
   - libxslt-devel
   - mysql-devel
+  - graphviz
   - python2
   - python35
   - python2-pip
