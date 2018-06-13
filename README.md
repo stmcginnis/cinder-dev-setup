@@ -8,7 +8,7 @@ After running this with:
 
 ```
 sudo ansible-pull -U https://github.com/stmcginnis/cinder-dev-setup
-``
+```
 
 you should then be able to successfully run:
 
