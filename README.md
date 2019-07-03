@@ -14,7 +14,7 @@ you should then be able to successfully run:
 
 ```
 cd ~/src/openstack/cinder
-tox -e all
+tox
 ```
 
 ### Requirements
