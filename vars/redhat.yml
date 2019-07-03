@@ -6,7 +6,7 @@ system_packages:
   - mysql-devel
   - graphviz
   - python2
-  - python35
+  - python3
   - python2-pip
   - python3-pip
   - python2-virtualenv
