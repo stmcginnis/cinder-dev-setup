@@ -1,5 +1,6 @@
 system_packages:
   - gcc
+  - graphviz
   - libssl-dev
   - libffi-dev
   - libxslt-dev
