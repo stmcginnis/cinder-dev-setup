@@ -5,6 +5,7 @@ system_packages:
   - libffi-dev
   - libxslt-dev
   - libmysqlclient-dev
+  - libpq-dev
   - python3-dev
   - python3-pip
   - python3-virtualenv

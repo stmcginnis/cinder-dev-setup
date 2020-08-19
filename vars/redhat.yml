@@ -3,6 +3,7 @@ system_packages:
   - graphviz
   - openssl-devel
   - mysql-devel
+  - libpq-devel
   - libffi-devel
   - libxslt-devel
   - python3
