@@ -2,13 +2,10 @@ system_packages:
   - gcc
   - graphviz
   - openssl-devel
+  - mysql-devel
   - libffi-devel
   - libxslt-devel
-  - mysql-devel
-  - graphviz
-  - python2
-  - python3.7
-  - python2-pip
+  - python3
   - python3-pip
-  - python2-virtualenv
   - python3-virtualenv
+  - python3-devel
